@@ -10,5 +10,25 @@ Klindt, D., Ecker, A., Euler, T. & Bethge, M. (2017). Neural system identificati
 
 # Instructions
 To reproduce the figures from the paper (see above) open the corresponding notebooks:
-fig{3,4,5}.ipynb
+
+### for figure 3 and 4 go to
+
+fig{3,4}.ipynb
+
 and execute the cells with further instructions provided in the comments.
+
+### for figure 5b-d execute
+
+./fig5/fig5.ipynb
+
+as well as
+
+./fig5/CNN_{Batty,McInt}.ipynb
+
+### for figure 5e execute
+
+./fig5/more_types/{fig5,Batty,Mcint}_more_types.ipynb
+
+### for table1/figure6
+
+[Alex?]
