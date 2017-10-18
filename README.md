@@ -25,6 +25,8 @@ as well as
 
 ./fig5/CNN_{Batty,McInt}.ipynb
 
+where 'Batty' is the CNN model with fixed location mask and 'McInt' the CNN model with fully connected readout.
+
 ### for figure 5e execute
 
 ./fig5/more_types/{fig5,Batty,Mcint}_more_types.ipynb
