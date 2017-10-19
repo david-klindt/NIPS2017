@@ -11,13 +11,13 @@ Klindt, D., Ecker, A., Euler, T. & Bethge, M. (2017). Neural system identificati
 # Instructions
 To reproduce the figures from the paper (see above) open the corresponding notebooks:
 
-### for Figure 3 and 4 go to
+### For Figure 3 and 4 go to
 
 `fig{3,4}.ipynb`
 
 and execute the cells with further instructions provided in the comments.
 
-### for Figure 5b-d execute
+### For Figure 5b-d execute
 
 `fig5/fig5.ipynb`
 
@@ -27,11 +27,11 @@ as well as
 
 where 'Batty' is the CNN model with fixed location mask and 'McInt' the CNN model with fully connected readout.
 
-### for Figure 5e execute
+### For Figure 5e execute
 
 `fig5/more_types/{fig5,Batty,Mcint}_more_types.ipynb`
 
-### for Table 1
+### For Table 1 see
 
 Folder `v1data`
 
@@ -44,6 +44,6 @@ If your goal is to just use the code to fit a model to your own data, consult
 `standalone.py` for a working example.
 
 If you want to check the code we used: `convnet.py` defines the neural networks and does
-the heavy lifting; database.py` contains the database classes and exact parameter settings
+the heavy lifting; `database.py` contains the database classes and exact parameter settings
 that we used (`Fit._make_tuples()` is a good starting point).
 
