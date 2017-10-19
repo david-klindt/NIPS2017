@@ -3,10 +3,8 @@
 ._*
 *.bak
 .ipynb_checkpoints/
-train_logs/
 core.*
 __pycache__
-figs
-data
-populate
+v1data/train_logs/
+v1data/Data
 
