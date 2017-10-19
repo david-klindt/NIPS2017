@@ -1,0 +1,12 @@
+.*
+*~
+._*
+*.bak
+.ipynb_checkpoints/
+train_logs/
+core.*
+__pycache__
+figs
+data
+populate
+
