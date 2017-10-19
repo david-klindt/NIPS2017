@@ -1,0 +1,10 @@
+.*
+*~
+._*
+*.bak
+.ipynb_checkpoints/
+core.*
+__pycache__
+v1data/train_logs/
+v1data/Data
+
