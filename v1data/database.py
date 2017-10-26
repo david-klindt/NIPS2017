@@ -192,7 +192,7 @@ class Fit(dj.Computed):
         assert len(self) == 1, 'Relation must be scalar!'
         log_hash, iterations = self.fetch1('log_hash', 'iterations')
         cnn = Fit.build_net(list(self.fetch.keys())[0], log_hash=log_hash, global_step=iterations)
-        cnn.load_best()
+        cnn.load()
         return cnn
 
 
